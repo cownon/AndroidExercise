@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="MyButtonStyle">
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>

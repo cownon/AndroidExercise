@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="3dp"
+                android:onClick="btClick"
+                android:textSize="30sp"
+                app:backgroundTint="#BCB9B9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btPlayAgain"
+                android:layout_span="3"
+                android:padding="10dp"
+                android:text="Bắt Đầu" />
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="5dp"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txtShowresult"
+                android:layout_width="wrap_content"
+                android:layout_span="3"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:visibility="invisible" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
