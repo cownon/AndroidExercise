@@ -1,4 +1,4 @@
-package com.example.demonetworking; // Thay bằng tên package của bạn
+package com.example.demonetworking;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
